@@ -77,6 +77,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
   _speed: 1
   _rotationSpeed: 100
+  _screenBorder: -30
 --- !u!114 &6208391629351632128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b8278be448083409ada6c6e3848b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAwarenessController
-  _playerAwarenessDistance: 5
+  _playerAwarenessDistance: 3
 --- !u!58 &5335212889136266900
 CircleCollider2D:
   m_ObjectHideFlags: 0
